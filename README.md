@@ -7,6 +7,8 @@ The capability to retrieve code snippets effectively through natural language de
 
 ## Embedding Generation and Reranking
 
+The data used in experiments could be downloaded at https://huggingface.co/datasets/ClarcTeam/CLARC in zip files.
+
 The script `embedding/dataset2rank_emb.py` is used to calculate embeddings for queries and code snippets. These embeddings are then utilized to rerank candidate pools within the dataset.
 
 Execute the script using the following command structure:
